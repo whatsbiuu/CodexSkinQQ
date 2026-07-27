@@ -3,6 +3,8 @@
 一套面向 macOS Codex 客户端的 QQ 2007 风格复古窗口皮肤，基于
 [Codex Dream Skin](https://github.com/Fei-Away/Codex-Dream-Skin) 扩展。
 
+![Codex QQ2007 皮肤效果预览](docs/images/codex-qq2007-preview.png)
+
 皮肤保留 Codex 原生任务、对话、输入框和文档面板的交互能力，在其外层增加：
 
 - QQ 2007 风格蓝色标题栏、工具栏、状态栏和窗口按钮
