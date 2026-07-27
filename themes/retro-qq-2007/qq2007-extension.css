@@ -1,0 +1,527 @@
+#dream-skin-qq2007 {
+  display: none;
+  pointer-events: none;
+  user-select: none;
+  color: #173b59;
+  font-family: Tahoma, "Microsoft YaHei", sans-serif;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] {
+  --qq-blue: #2f8de4;
+  --qq-blue-dark: #176bc1;
+  --qq-line: #78aeda;
+  --qq-pale: #edf8ff;
+  --qq-glass: rgb(245 252 255 / .94);
+  overflow-x: clip;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] #dream-skin-qq2007 { display: block; }
+
+html[data-dream-pet-surface="true"] #dream-skin-qq2007 {
+  display: none !important;
+}
+
+html[data-dream-pet-surface] body {
+  background: transparent !important;
+  background-image: none !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-title {
+  position: fixed;
+  z-index: 40;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 12px;
+  border: 1px solid #1768b5;
+  border-bottom-color: #84c7f5;
+  border-radius: 7px 7px 0 0;
+  background: linear-gradient(#69bdf5 0%, #3094e8 46%, #1978d0 100%);
+  color: white;
+  text-shadow: 0 1px #155b9d;
+  box-shadow: inset 0 1px rgb(255 255 255 / .62);
+  font-size: 13px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-title small { opacity: .92; font-size: 12px; }
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-window-controls {
+  margin-left: auto;
+  display: flex;
+  gap: 3px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-window-controls i {
+  width: 21px;
+  height: 19px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #b8e6ff;
+  border-radius: 3px;
+  background: linear-gradient(#65c5ff, #177bd2);
+  box-shadow: inset 0 0 0 1px rgb(16 91 167 / .38), inset 0 1px white;
+  color: white;
+  font: 700 14px/1 Tahoma, sans-serif;
+  font-style: normal;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-window-controls i:last-child {
+  background: linear-gradient(#ff9a77, #d83b20);
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-mark {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #0d5da8;
+  border-radius: 50%;
+  background: linear-gradient(#fff, #cdeeff);
+  color: #1875c7;
+  text-shadow: none;
+  font-weight: 800;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar {
+  position: fixed;
+  z-index: 39;
+  left: 0;
+  right: 0;
+  top: 30px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 0 14px;
+  border: 1px solid var(--qq-line);
+  border-top: 0;
+  background: linear-gradient(#f8fdff, #d9efff);
+  box-shadow: inset 0 1px white, inset 0 -1px #b8dcf5;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span {
+  min-width: 76px;
+  height: 34px;
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 7px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  color: #214a6c;
+  font-size: 12px;
+  font-weight: 650;
+  text-align: left;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-tool-icon {
+  width: 23px;
+  height: 23px;
+  flex: 0 0 23px;
+  display: inline-grid;
+  place-items: center;
+  margin-right: 6px;
+  border: 1px solid #6c9ec1;
+  border-radius: 4px;
+  background: linear-gradient(#fff, #bfe4fa);
+  box-shadow: inset 0 1px white, 0 1px 1px rgb(28 82 125 / .18);
+  font: 700 17px/1 Tahoma, sans-serif;
+  font-style: normal;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-new,
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-site { color: #2a77bc; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-clock,
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-chat { color: #e5a716; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-plugin { color: #62a925; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-icon-pull { color: #704fa8; }
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span:hover {
+  border-color: #8bbadd;
+  background: linear-gradient(#fff, #d9efff);
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel {
+  padding-top: 74px !important;
+  padding-bottom: 112px !important;
+  border-right: 1px solid #6ba8d6 !important;
+  background: linear-gradient(90deg, rgb(247 252 255 / .97), rgb(220 241 255 / .94)) !important;
+  box-shadow: inset -1px 0 white !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel [class*="group/nav-section-title"] {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 5 !important;
+  min-height: 28px !important;
+  margin: 4px 0 2px !important;
+  padding: 0 9px !important;
+  border-top: 1px solid #a4cae4 !important;
+  border-bottom: 1px solid #7faed0 !important;
+  background: linear-gradient(#f9fdff, #c9e8fb) !important;
+  color: #235a84 !important;
+  text-shadow: 0 1px white !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel [class*="group/folder-row"] {
+  min-height: 24px !important;
+  padding-block: 1px !important;
+  margin-inline: 3px !important;
+  border-radius: 2px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-search {
+  position: fixed;
+  z-index: 34;
+  left: 4px;
+  bottom: 74px;
+  width: 291px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 9px;
+  border: 1px solid #77acd4;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(#fff, #e9f6ff);
+  box-shadow: inset 0 0 0 1px white;
+  color: #68849a;
+  font-size: 11px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-profile {
+  position: fixed;
+  z-index: 34;
+  left: 4px;
+  bottom: 29px;
+  width: 291px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  box-sizing: border-box;
+  padding: 4px 9px;
+  border: 1px solid #77acd4;
+  border-top: 0;
+  background: linear-gradient(#e8f7ff, #c7eaff);
+  color: #204e71;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-avatar {
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  flex: 0 0 31px;
+  border: 1px solid #246da7;
+  border-radius: 50%;
+  background: #dff3ff center / cover no-repeat url("__QQ2007_PENGUIN_PROFILE__");
+  box-shadow: inset 0 1px white, 0 1px 2px rgb(23 74 116 / .3);
+  color: transparent;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-profile span { display: grid; gap: 1px; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-profile b { font-size: 12px; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-profile small { color: #4b982f; font-size: 10px; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-left-profile em { margin-left: auto; font-style: normal; }
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel nav {
+  border: 1px solid #9dc8e7;
+  border-radius: 4px;
+  background: rgb(255 255 255 / .78) !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel button,
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel a {
+  min-height: 28px !important;
+  border-radius: 2px !important;
+  font-family: Tahoma, "Microsoft YaHei", sans-serif !important;
+  font-size: 12px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel button:hover,
+html[data-dream-theme-id="retro-qq-2007"] aside.app-shell-left-panel a:hover {
+  background: linear-gradient(#f6fcff, #cdeaff) !important;
+  box-shadow: inset 0 0 0 1px #91c6ed !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface {
+  box-sizing: border-box;
+  padding-top: 74px !important;
+  padding-bottom: 24px !important;
+  padding-right: 220px !important;
+  background: rgb(255 255 255 / .86) !important;
+  border: 1px solid #76aeda !important;
+  border-radius: 4px !important;
+  box-shadow: inset 0 0 0 1px white !important;
+  overflow-x: clip !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface .app-shell-main-content-frame {
+  border: 1px solid #9bc3df !important;
+  border-radius: 3px !important;
+  background: rgb(255 255 255 / .82) !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface {
+  --qq-chat-font: 12px;
+  color: #1e3446 !important;
+  font-family: Tahoma, "Microsoft YaHei", sans-serif !important;
+  font-size: var(--qq-chat-font) !important;
+  line-height: 1.5 !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface [data-message-author-role] {
+  margin-block: 4px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface [data-message-author-role] > div {
+  max-width: none !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface p {
+  margin-block: 7px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface code:not(pre code) {
+  padding: 1px 5px !important;
+  border: 1px solid #c6dce9 !important;
+  border-radius: 3px !important;
+  background: #edf4f8 !important;
+  color: #324d60 !important;
+  font: 12px/1.5 Monaco, Consolas, monospace !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface pre {
+  padding: 30px 12px 10px !important;
+  border: 1px solid #8fb3cc !important;
+  border-radius: 4px !important;
+  background: linear-gradient(#edf6fb 0 28px, #f7fbfd 28px) !important;
+  box-shadow: inset 0 1px white !important;
+  color: #203f55 !important;
+  font: 12px/1.55 Monaco, Consolas, monospace !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface pre code {
+  color: inherit !important;
+  font: inherit !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] main.main-surface hr {
+  border: 0 !important;
+  border-top: 1px solid #bdd5e5 !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-chat-caption {
+  position: fixed;
+  z-index: 34;
+  top: 81px;
+  left: 307px;
+  right: 220px;
+  height: 27px;
+  box-sizing: border-box;
+  padding: 5px 10px;
+  border: 1px solid #78acd2;
+  background: linear-gradient(#fff, #d9effd);
+  box-shadow: inset 0 1px white;
+  color: #244f70;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .composer-surface-chrome {
+  anchor-name: --qq-composer;
+  box-sizing: border-box !important;
+  min-height: 132px !important;
+  padding: 27px 8px 33px !important;
+  border: 1px solid #74a9d2 !important;
+  border-radius: 2px !important;
+  background: linear-gradient(#dcefff 0 26px, rgb(255 255 255 / .97) 26px) !important;
+  box-shadow: inset 0 1px white, 0 2px 6px rgb(42 102 150 / .18) !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .composer-surface-chrome textarea,
+html[data-dream-theme-id="retro-qq-2007"] .composer-surface-chrome [contenteditable="true"] {
+  color: #20384b !important;
+  font-family: Tahoma, "Microsoft YaHei", sans-serif !important;
+  font-size: 13px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-composer-tools {
+  position: fixed;
+  z-index: 34;
+  left: calc(anchor(--qq-composer left) + 14px);
+  top: calc(anchor(--qq-composer top) + 8px);
+  display: flex;
+  gap: 15px;
+  color: #385d78;
+  font-size: 11px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-send {
+  position: fixed;
+  z-index: 34;
+  left: calc(anchor(--qq-composer right) - 100px);
+  top: calc(anchor(--qq-composer bottom) - 30px);
+  width: 92px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding-left: 14px;
+  border: 1px solid #1765ad;
+  border-radius: 3px;
+  background: linear-gradient(#58aeef, #1778cc);
+  box-shadow: inset 0 1px #bce8ff;
+  color: white;
+  text-shadow: 0 1px #155f9e;
+  font-size: 12px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-send i {
+  width: 22px;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  border-left: 1px solid #1765ad;
+  font-style: normal;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-profile {
+  position: absolute;
+  z-index: 35;
+  top: 82px;
+  right: 7px;
+  bottom: 30px;
+  width: 206px;
+  display: grid;
+  grid-template-rows: 472px minmax(280px, 1fr);
+  gap: 8px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] body:has(aside[class*="z-[41]"][class*="ml-auto"]) .qq2007-profile {
+  display: none !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] body:has(aside[class*="z-[41]"][class*="ml-auto"]) main.main-surface {
+  padding-right: 0 !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside[class*="z-[41]"][class*="ml-auto"] button[aria-label^="关闭"][aria-label$="标签页"] {
+  min-width: 58px !important;
+  padding: 0 7px !important;
+  border: 1px solid #79abd0 !important;
+  border-radius: 3px !important;
+  background: linear-gradient(#fff, #d8eefc) !important;
+  color: #285776 !important;
+  gap: 3px !important;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] aside[class*="z-[41]"][class*="ml-auto"] button[aria-label^="关闭"][aria-label$="标签页"]::before {
+  content: "关闭";
+  font-size: 11px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-card {
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid #6fa7d1;
+  border-radius: 5px;
+  background: linear-gradient(#effaff, #d9f0ff);
+  box-shadow: inset 0 0 0 1px white, 0 1px 3px rgb(38 94 138 / .2);
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-card h3 {
+  height: 25px;
+  margin: 0;
+  padding: 5px 8px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #8ab9dc;
+  background: linear-gradient(#f9fdff, #d3ebfb);
+  font-size: 12px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex-art {
+  height: auto;
+  aspect-ratio: 2 / 3;
+  margin: 8px;
+  border: 1px solid #a8d1ed;
+  background: center center / cover no-repeat url("__QQ2007_CODEX_PROFILE__");
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex b,
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex small,
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex p { display: block; margin: 4px 10px; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex small { color: #4f8b36; font-size: 11px; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex p { padding: 7px; border: 1px solid #a8cae1; background: white; font-size: 11px; line-height: 1.45; }
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-codex em { padding: 1px 4px; background: #eca63d; color: white; font-size: 9px; font-style: normal; }
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-profile-tools {
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 6px;
+  border-top: 1px solid #9ac3df;
+  background: linear-gradient(#f8fdff, #d8eefb);
+  color: #477aa1;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-profile-tools i { font-style: normal; }
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-avatar-art {
+  height: calc(100% - 56px);
+  background: center bottom / cover no-repeat url("__QQ2007_AVATAR_PROFILE__");
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-friend-search {
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 8px;
+  border-top: 1px solid #8fbddd;
+  background: white;
+  color: #7890a2;
+  font-size: 11px;
+}
+
+html[data-dream-theme-id="retro-qq-2007"] .qq2007-status {
+  position: fixed;
+  z-index: 41;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 1px solid #3d91cf;
+  background: linear-gradient(#a9ddfa, #5bb2ec);
+  color: #174f79;
+  font-size: 11px;
+}
+
+@media (max-width: 1199px) {
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-profile { display: none; }
+  html[data-dream-theme-id="retro-qq-2007"] main.main-surface { padding-right: 0 !important; }
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-chat-caption { right: 7px; }
+}
+
+@media (max-width: 999px) {
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span:nth-child(3),
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span:nth-child(4),
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span:nth-child(5) { display: none; }
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar { gap: 2px; padding-inline: 8px; }
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-toolbar span { min-width: 56px; padding-inline: 5px; }
+  html[data-dream-theme-id="retro-qq-2007"] .qq2007-chat-caption { left: 7px; }
+}

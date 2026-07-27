@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "retro-qq-2007",
+  "name": "Codex 2007",
+  "brandSubtitle": "QQ 2007 WINDOW EDITION",
+  "tagline": "回到蓝色聊天窗口的年代。",
+  "projectPrefix": "会话 · ",
+  "projectLabel": "选择项目",
+  "statusText": "CODEX ONLINE",
+  "quote": "保持在线，继续创造",
+  "image": "background.jpg",
+  "appearance": "light",
+  "art": {
+    "focusX": 0.5,
+    "focusY": 0.5,
+    "safeArea": "none",
+    "taskMode": "ambient"
+  },
+  "colors": {
+    "background": "#dcefff",
+    "panel": "#ffffff",
+    "panelAlt": "#eaf6ff",
+    "accent": "#2f8de4",
+    "accentAlt": "#63b7f2",
+    "secondary": "#76c9ee",
+    "highlight": "#f2c84b",
+    "text": "#183b59",
+    "muted": "#607f98",
+    "line": "rgba(47, 141, 228, .38)"
+  }
+}
